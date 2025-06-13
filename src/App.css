@@ -1,0 +1,62 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+}
+.box {
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 8px 12px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background-color: #005fcc;
+}
+
+.todo-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.count-display {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
